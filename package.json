@@ -7,8 +7,8 @@
   "main": "index",
   "scripts": {
     "test": "lab -a code -v -t 93 test/test.js",
-    "server": "json-server adam/test_converted.json --static ./public --port 8080",
-    "demo": "json-server adam/example.json --static ./public --port 8088"
+    "server": "json-server adam/test_converted.json --ro --static ./public --port 8080",
+    "demo": "json-server adam/example.json --ro --static ./public --port 8088"
   },
   "dependencies": {
     "hoek": "^2.14.0",
